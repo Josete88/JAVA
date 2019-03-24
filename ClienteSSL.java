@@ -162,7 +162,7 @@ public class ClienteSSL {
 
 
 	public static void main(String[] args) throws KeyManagementException, KeyStoreException, NoSuchAlgorithmException, CertificateException, IOException {
-		ClienteSSL cliente=new ClienteSSL("/home/josete88/Documents/eclipse/ClienteSSL/almacencliente","cliente","localhost",5560);
+		ClienteSSL cliente=new ClienteSSL("your route","cliente","localhost",5560);
 		  Scanner escaner = new Scanner(System.in);
 	        mostrarTexto("Ingresa la IP: [localhost por defecto] ");
 	        ip = escaner.nextLine();
